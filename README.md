@@ -15,5 +15,5 @@ CVD Data Science Project
 ## How to Use This Repo
 1. Clone this repo:
    ```bash
-   git clone https://github.com/your-username/cvd-project.git
+   git clone https://github.com/Barsa-rana982/TDP_CVD-Data-Science.git
 data/Final_Merged_CVD_Dataset.xlsx
