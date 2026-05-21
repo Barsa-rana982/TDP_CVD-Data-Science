@@ -1,0 +1,19 @@
+# Jupyter
+.ipynb_checkpoints/
+*.pyc
+__pycache__/
+
+# Generated outputs (re-created by running notebooks)
+PHN_*.csv
+PHA_*.csv
+Risk_Factors*.csv
+Combined_Dataset.csv
+Merged_CVD_and_Risk_Factors_Dataset.csv
+Merged_CVD.xlsx
+Final_CVD_Merged.xlsx
+SES_vs_CVD_LongFormat.xlsx
+regression_summary.*
+
+# OS
+.DS_Store
+Thumbs.db
