@@ -13,7 +13,7 @@ CVD/
 ├── CVD-death.xlsx                     # Raw CVD mortality data (AIHW)
 ├── CVD-hospitalisation.xlsx           # Raw CVD hospitalisation data (AIHW)
 ├── risk-factors-prevalence.xlsx       # Risk factors: HBP, obesity, inactivity, smoking
-├── socioeconomic&population.xlsx      # Socioeconomic & population characteristics
+├── socioeconomic_population.xlsx      # Socioeconomic & population characteristics
 ├── phn-2017-concordance-files-...xlsx # PHN–SA2 concordance mapping
 └── Socioeconomic_vs_CVD.twbx          # Tableau dashboard
 ```
@@ -49,6 +49,26 @@ End-to-end analysis pipeline with the following stages:
 - **Socioeconomic factors alone do not predict CVD death rates** — the linear regression model achieved R² = 0.002 with no significant predictors (all p-values > 0.05)
 - **SES features are effective for classification** — logistic regression successfully classifies PHNs by CVD risk level
 - Incorporating health-related risk factors (smoking, obesity, physical inactivity, hospitalisation rate) is recommended to improve regression model performance
+
+---
+
+## Interactive Dashboard (My Contribution)
+
+This project was completed as a **team**. My individual contribution was the
+**Socioeconomic Impact analysis** — examining how socioeconomic disadvantage
+relates to CVD death and hospitalisation rates across Australian states, including:
+
+- Scatter analysis of Low-SES % vs CVD death & hospitalisation rates (with trend lines)
+- Filled map of socioeconomic disadvantage by state
+- Average CVD death rate by state, grouped by SES level
+- Interactive filters for SES variable, age group, and gender
+
+🔗 **[View the Socioeconomic Impact dashboard on Tableau Public](https://public.tableau.com/views/TDPHOSPITALISATION11/SocioeconomicImpact)**
+
+> **Key insight:** While the overall correlation is weak (linear regression R² = 0.002),
+> regions with high socioeconomic disadvantage and older populations (75+) consistently
+> show greater CVD mortality and hospitalisation — pointing to a need for targeted,
+> place-based health interventions.
 
 ---
 
